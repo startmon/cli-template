@@ -5,9 +5,7 @@
   "main": "tsx src/index.ts",
   "type": "module",
   "keywords": [],
- "bin": {
-  "cli-template": "src/index.ts"
-},
+  "bin":"src/index.ts",
   "author": "",
   "license": "ISC",
   "dependencies": {
