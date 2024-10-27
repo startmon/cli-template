@@ -2,10 +2,12 @@
   "name": "cli-template",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "tsx src/index.ts",
   "type": "module",
   "keywords": [],
-  "bin":"tsx src/index.ts",
+ "bin": {
+  "cli-template": "npx tsx src/index.ts"
+},
   "author": "",
   "license": "ISC",
   "dependencies": {

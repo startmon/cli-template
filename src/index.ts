@@ -1,3 +1,5 @@
+#!/usr/bin/env -S npx tsx
+
 import app from "./app";
 import "../env.config"; // Load environment variables from the .env file
 import pc from "picocolors"
@@ -26,7 +28,7 @@ async function main(){
   log.info(`${ '🚀' } You picked ${projectType}`);
   
   
-  app();
+  // app();
 
   outro(`Thank You for using ${pc.green("StartMon")}!`)
 }catch{
@@ -34,6 +36,7 @@ async function main(){
   process.exit(1)
 }
 }
+
 
 
 main()
