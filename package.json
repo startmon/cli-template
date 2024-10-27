@@ -6,7 +6,7 @@
   "type": "module",
   "keywords": [],
  "bin": {
-  "cli-template": "npx tsx src/index.ts"
+  "cli-template": "src/index.ts"
 },
   "author": "",
   "license": "ISC",
